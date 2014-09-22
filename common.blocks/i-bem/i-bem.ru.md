@@ -15,25 +15,25 @@
 <ul>
 <li>Какие бывают блоки
 <ul>
-<li>[Блоки с DOM-представлением](#dom.blocks)</li>
-<li>[Блоки без DOM-представления](#abstract.blocks)</li>
+<li><a href="i-bem.ru.md#dom.blocks">Блоки с DOM-представлением</a></li>
+<li><a href="i-bem.ru.md#abstract.blocks">Блоки без DOM-представления</a></li>
 </ul>
 </li>
 <li>Принципы и особенности подхода
 <ul>
-<li>[Декларативный принцип](#decl)</li>
-<li>[Доступ к другим блокам](#block.getting)</li>
-<li>[Работа с модификаторами](#mods)</li>
-<li>[Кастомизация блоков](#customization)</li>
+<li><a href="i-bem.ru.md#decl">Декларативный принцип</a></li>
+<li><a href="i-bem.ru.md#block.getting">Доступ к другим блокам</a></li>
+<li><a href="i-bem.ru.md#mods">Работа с модификаcторами</a></li>
+<li><a href="i-bem.ru.md#customization">Кастомизация блоков</a></li>
 </ul>
 </li>
-<li>[Создание собственного bem-js блока](#creation)</li>
+<li><a href="i-bem.ru.md#creation">Создание собственного bem-js блока</a></li>
 <li>Подробнее о понятиях
 <ul>
-<li>[Инициализация](#init)</li>
-<li>[Инициализация по требованию (live-инициализация)](#liveinit)</li>
-<li>[Методы доступа к блокам и элементам](#finding)</li>
-<li>[Работа с событиями](#events)</li>
+<li><a href="i-bem.ru.md#init">Инициализация</a></li>
+<li><a href="i-bem.ru.md#liveinit">Инициализация по требованию (live-инициализация)</a></li>
+<li><a href="i-bem.ru.md#finding">Методы доступа к блокам и элементам</a></li>
+<li><a href="i-bem.ru.md#events">Работа с событиями</a></li>
 </ul>
 </li>
 </ul>
@@ -203,7 +203,7 @@ BEM.DOM.decl({'name': 'b-link', 'modName': 'pseudo', 'modVal': 'yes'}, {
 });
 ```
 
-Содержание файла `blocks/b-link/_status/b-link_status_clicked.css`
+Содержание файла `blocks/b-link/_status/b-link_status_clicked.css`:
 
 ```xml
 .b-link_status_clicked
